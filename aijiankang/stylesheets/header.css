@@ -1,0 +1,1230 @@
+/* line 7, ../sass/header.scss */
+* {
+  font-family: microsoft yahei;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../sass/header.scss */
+header {
+  height: 70px;
+  background-color: #6f9f00;
+  width: 1350px;
+}
+/* line 18, ../sass/header.scss */
+header .logo {
+  float: left;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+/* line 22, ../sass/header.scss */
+header .logo img {
+  width: 70%;
+  height: 70%;
+}
+/* line 28, ../sass/header.scss */
+header nav ul {
+  list-style: none;
+}
+/* line 31, ../sass/header.scss */
+header nav ul li {
+  width: 80px;
+  height: 40px;
+  float: left;
+  margin: 20px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+/* line 40, ../sass/header.scss */
+header nav ul li:hover {
+  background: #638B15;
+}
+/* line 43, ../sass/header.scss */
+header nav ul li a {
+  text-decoration: none;
+  width: 80px;
+  height: 40px;
+  color: #fff;
+}
+/* line 50, ../sass/header.scss */
+header nav ul .active {
+  background: #507110;
+}
+/* line 55, ../sass/header.scss */
+header .menu {
+  position: relative;
+  float: left;
+  margin-left: 130px;
+  width: 200px;
+  height: 35px;
+  background-color: #c0d29e;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-top: 17px;
+}
+/* line 64, ../sass/header.scss */
+header .menu .menu-logo {
+  width: 35px;
+  height: 35px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  margin-left: 4px;
+  overflow: hidden;
+}
+/* line 70, ../sass/header.scss */
+header .menu .menu-logo img {
+  width: 100%;
+}
+/* line 74, ../sass/header.scss */
+header .menu i {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 7px 0 7px;
+  border-color: #2feb1e transparent transparent transparent;
+  line-height: 0px;
+  _border-color: #2feb1e #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  margin-left: 160px;
+  position: absolute;
+  top: 14px;
+}
+/* line 87, ../sass/header.scss */
+header .menu p {
+  width: 16px;
+  position: relative;
+  bottom: 30px;
+  margin-left: 70px;
+  color: #85c51f;
+  font-size: 15px;
+  display: block;
+}
+/* line 95, ../sass/header.scss */
+header .menu p:hover {
+  color: #628A17;
+}
+/* line 99, ../sass/header.scss */
+header .menu #sho {
+  width: 80px;
+  background-color: #fff;
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  list-style: none;
+  display: none;
+}
+/* line 107, ../sass/header.scss */
+header .menu #sho li {
+  text-align: center;
+}
+/* line 109, ../sass/header.scss */
+header .menu #sho li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+/* line 113, ../sass/header.scss */
+header .menu #sho li a:hover {
+  color: #85c51f;
+}
+/* line 120, ../sass/header.scss */
+header .message {
+  position: relative;
+}
+/* line 122, ../sass/header.scss */
+header .message i {
+  width: 30px;
+  height: 20px;
+  background: url("../imgs/message.png") no-repeat;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+/* line 131, ../sass/header.scss */
+header .message .dote {
+  display: block;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #f4aa28;
+  position: absolute;
+  right: 55px;
+  top: 20px;
+}
+/* line 144, ../sass/header.scss */
+header .clear {
+  clear: both;
+}
+
+/* line 149, ../sass/header.scss */
+.clearfix .clearfix:before,
+.clearfix .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 155, ../sass/header.scss */
+.clearfix .clearfix:after {
+  clear: both;
+}
+/* line 157, ../sass/header.scss */
+.clearfix .charts {
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 8px #d4d4d4;
+  width: 50%;
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 150px;
+  padding: 22px;
+}
+/* line 167, ../sass/header.scss */
+.clearfix .charts .ball {
+  padding-bottom: 120px;
+  margin-bottom: 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 171, ../sass/header.scss */
+.clearfix .charts .ball h3 {
+  color: #666;
+  text-align: center;
+  font-size: 22px;
+}
+/* line 176, ../sass/header.scss */
+.clearfix .charts .ball .ballone {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #f3f3f3;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  -moz-animation: moveone 3s infinite alternate;
+  -webkit-animation: moveone 3s infinite alternate;
+  animation: moveone 3s infinite alternate;
+  position: relative;
+  top: 10px;
+  left: 35%;
+}
+/* line 188, ../sass/header.scss */
+.clearfix .charts .ball .balltwo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #f3f3f3;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  -moz-animation: movetwo 3s infinite alternate;
+  -webkit-animation: movetwo 3s infinite alternate;
+  animation: movetwo 3s infinite alternate;
+  position: relative;
+  top: 125px;
+  left: 55%;
+}
+/* line 199, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: movethree 5s infinite alternate;
+  -webkit-animation: movethree 5s infinite alternate;
+  animation: movethree 5s infinite alternate;
+  background: #f09f11;
+  position: relative;
+  top: 40px;
+  left: -60px;
+  padding: 10px;
+}
+/* line 212, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  background: #f09f11;
+}
+/* line 215, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir:hover .ball-fir-inset {
+  background: #fff;
+}
+/* line 217, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir:hover .ball-fir-inset p {
+  color: #f09f11;
+}
+/* line 220, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir:hover .ball-fir-inset h4 {
+  color: #f09f11;
+}
+/* line 226, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir .ball-fir-inset {
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  background: #f1a217;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+/* line 233, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir .ball-fir-inset h4 {
+  text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  color: #fff;
+  font-size: 18px;
+}
+/* line 240, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir .ball-fir-inset p {
+  position: relative;
+  font-size: 25px;
+  top: 8px;
+  left: 8px;
+  color: #fff;
+}
+/* line 246, ../sass/header.scss */
+.clearfix .charts .ball .ball-fir .ball-fir-inset p span {
+  font-size: 16px;
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+}
+/* line 255, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: movefour 5s infinite alternate;
+  -webkit-animation: movefour 5s infinite alternate;
+  animation: movefour 5s infinite alternate;
+  background: #f09f11;
+  position: relative;
+  top: 70px;
+}
+/* line 265, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  background: #f09f11;
+}
+/* line 268, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec:hover .ball-sec-inset {
+  background: #fff;
+}
+/* line 270, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec:hover .ball-sec-inset p {
+  color: #f09f11;
+}
+/* line 273, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec:hover .ball-sec-inset h4 {
+  color: #f09f11;
+}
+/* line 279, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec .ball-sec-inset {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  background: #f1a217;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+/* line 287, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec .ball-sec-inset h4 {
+  text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  color: #fff;
+  font-size: 18px;
+}
+/* line 295, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec .ball-sec-inset p {
+  position: relative;
+  font-size: 25px;
+  top: 5px;
+  left: 3px;
+  color: #fff;
+  text-align: center;
+}
+/* line 302, ../sass/header.scss */
+.clearfix .charts .ball .ball-sec .ball-sec-inset p span {
+  font-size: 16px;
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+  font-weight: bold;
+}
+/* line 314, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-animation: movefive 5s infinite alternate;
+  -webkit-animation: movefive 5s infinite alternate;
+  animation: movefive 5s infinite alternate;
+  background: #f09f11;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+/* line 325, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi:hover {
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  background: #f09f11;
+}
+/* line 328, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi:hover .ball-thi-inset {
+  background: #fff;
+}
+/* line 330, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi:hover .ball-thi-inset p {
+  color: #f09f11;
+}
+/* line 333, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi:hover .ball-thi-inset h4 {
+  color: #f09f11;
+}
+/* line 339, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi .ball-thi-inset {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: #f1a217;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+/* line 347, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi .ball-thi-inset h4 {
+  text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  color: #fff;
+  font-size: 18px;
+}
+/* line 354, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi .ball-thi-inset p {
+  position: relative;
+  font-size: 25px;
+  top: 5px;
+  color: #fff;
+  left: 5px;
+}
+/* line 360, ../sass/header.scss */
+.clearfix .charts .ball .ball-thi .ball-thi-inset p span {
+  font-size: 16px;
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+  font-weight: bold;
+}
+/* line 372, ../sass/header.scss */
+.clearfix .charts .slide {
+  width: 100%;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 8px #d4d4d4;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+/* line 379, ../sass/header.scss */
+.clearfix .charts .slide .slide-top {
+  font-size: 25px;
+  color: #666;
+}
+/* line 382, ../sass/header.scss */
+.clearfix .charts .slide .slide-top .slide-top-left {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 9px;
+  background: #85c51f;
+}
+/* line 389, ../sass/header.scss */
+.clearfix .charts .slide .slide-top .slide-top-right {
+  width: 42%;
+  display: inline-block;
+  text-align: center;
+  padding: 9px;
+}
+/* line 399, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-left {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: url("../imgs/pie.png") no-repeat;
+}
+/* line 405, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right {
+  float: right;
+  display: inline-block;
+}
+/* line 408, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .zui {
+  position: relative;
+  bottom: -10px;
+  left: -20px;
+  font-size: 14px;
+  color: #666;
+}
+/* line 415, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .huabu {
+  width: 165px;
+  height: 50px;
+  z-index: 99999;
+  background: #fff;
+  position: absolute;
+  top: 553px;
+  left: 610px;
+  display: none;
+}
+/* line 425, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone {
+  z-index: 0;
+  width: 189px;
+  height: 80px;
+  position: relative;
+  border: 1px solid black;
+  left: -50px;
+  top: 30px;
+}
+/* line 433, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul {
+  list-style: none;
+}
+/* line 435, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li {
+  float: left;
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+  margin-right: 8px;
+  top: 82px;
+}
+/* line 442, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh1 {
+  position: relative;
+  top: -22px;
+  width: 15px;
+  height: 6px;
+  background: blue;
+}
+/* line 448, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh1 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 454, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh2 {
+  position: relative;
+  top: -27px;
+  width: 15px;
+  height: 10px;
+  background: blue;
+}
+/* line 460, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh2 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 466, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh3 {
+  position: relative;
+  top: -53px;
+  width: 15px;
+  height: 35px;
+  background: blue;
+}
+/* line 472, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh3 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 478, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh4 {
+  position: relative;
+  top: -20px;
+  width: 15px;
+  height: 2px;
+  background: blue;
+}
+/* line 484, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .chartone .num ul li .hh4 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 493, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo {
+  width: 189px;
+  height: 80px;
+  position: relative;
+  border: 1px solid black;
+  left: -50px;
+  top: 30px;
+  display: none;
+}
+/* line 501, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul {
+  list-style: none;
+}
+/* line 503, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li {
+  float: left;
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+  margin-right: 3px;
+  top: 82px;
+}
+/* line 510, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh1 {
+  position: relative;
+  top: -38px;
+  width: 15px;
+  height: 20px;
+  background: blue;
+}
+/* line 516, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh1 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 522, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh2 {
+  position: relative;
+  top: -27px;
+  width: 15px;
+  height: 10px;
+  background: blue;
+}
+/* line 528, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh2 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 534, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh3 {
+  position: relative;
+  top: -20px;
+  width: 15px;
+  height: 2px;
+  background: blue;
+  transition: height 2s liner;
+}
+/* line 541, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh3 .active {
+  height: 100px;
+}
+/* line 544, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh3 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 550, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh4 {
+  position: relative;
+  top: -68px;
+  width: 15px;
+  height: 50px;
+  background: blue;
+}
+/* line 556, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh4 .active {
+  height: 100px;
+}
+/* line 559, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh4 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 565, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh5 {
+  position: relative;
+  top: -20px;
+  width: 15px;
+  height: 2px;
+  background: blue;
+}
+/* line 571, ../sass/header.scss */
+.clearfix .charts .slide .slide-mid .slide-mid-right .charttwo .num ul li .hh5 p {
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+}
+/* line 584, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-left {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 190px;
+}
+/* line 588, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-left .lan1 {
+  color: #666;
+  position: relative;
+  top: -50px;
+  left: 45px;
+}
+/* line 594, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-left .lan1 p span {
+  color: red;
+  font-size: 10px;
+}
+/* line 601, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-mid {
+  display: inline-block;
+  margin-right: 190px;
+}
+/* line 604, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-mid .lan2 {
+  color: #666;
+  position: relative;
+  top: -50px;
+  left: 45px;
+}
+/* line 610, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-mid .lan2 p span {
+  color: red;
+  font-size: 10px;
+}
+/* line 618, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-right {
+  display: inline-block;
+}
+/* line 620, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-right .lan3 {
+  color: #666;
+  position: relative;
+  top: -50px;
+  left: 45px;
+}
+/* line 626, ../sass/header.scss */
+.clearfix .charts .slide .slide-bottom .slide-bottom-right .lan3 p span {
+  color: red;
+  font-size: 10px;
+}
+/* line 638, ../sass/header.scss */
+.clearfix .charts .last .xiangmu {
+  display: inline-block;
+}
+/* line 640, ../sass/header.scss */
+.clearfix .charts .last .xiangmu ul {
+  list-style: none;
+  width: 70px;
+}
+/* line 643, ../sass/header.scss */
+.clearfix .charts .last .xiangmu ul li {
+  width: 50px;
+  height: 15px;
+  background: #f4aa28;
+  font-size: 14px;
+  border: 1px solid #f4aa28;
+  margin-bottom: 10px;
+  background: #f4aa28;
+  padding: 9px 9px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 654, ../sass/header.scss */
+.clearfix .charts .last .xiangmu ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+/* line 661, ../sass/header.scss */
+.clearfix .charts .last .xiangmu ul .change {
+  background: #fff;
+  border-right: none;
+}
+/* line 664, ../sass/header.scss */
+.clearfix .charts .last .xiangmu ul .change a {
+  color: #f4aa28;
+}
+/* line 670, ../sass/header.scss */
+.clearfix .charts .last .checkday {
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 8px #d4d4d4;
+  width: 85%;
+  height: 300px;
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  left: -30px;
+}
+/* line 681, ../sass/header.scss */
+.clearfix .charts .last .checkday ul {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  list-style: none;
+}
+/* line 686, ../sass/header.scss */
+.clearfix .charts .last .checkday ul li {
+  text-align: center;
+  background: #f3f3f3;
+  margin-right: 30px;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+}
+/* line 694, ../sass/header.scss */
+.clearfix .charts .last .checkday ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  padding: 8px;
+}
+/* line 700, ../sass/header.scss */
+.clearfix .charts .last .checkday ul li span {
+  position: absolute;
+  left: 15px;
+  top: 24px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 6px 0 6px;
+  border-color: #85c51f transparent transparent transparent;
+  display: inline-block;
+  display: none;
+}
+/* line 713, ../sass/header.scss */
+.clearfix .charts .last .checkday ul .green {
+  background: #85c51f;
+}
+/* line 715, ../sass/header.scss */
+.clearfix .charts .last .checkday ul .green a {
+  color: #fff;
+}
+/* line 720, ../sass/header.scss */
+.clearfix .charts .last .checkday p {
+  font-size: 22px;
+  color: #f4aa28;
+  position: relative;
+  top: 210px;
+  left: 180px;
+  -moz-animation: movesix 5s infinite alternate;
+  -webkit-animation: movesix 5s infinite alternate;
+  animation: movesix 5s infinite alternate;
+  display: none;
+}
+/* line 731, ../sass/header.scss */
+.clearfix .charts .last .checkday .p4 {
+  display: block;
+}
+/* line 737, ../sass/header.scss */
+.clearfix .description {
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+/* line 742, ../sass/header.scss */
+.clearfix .description .rank {
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 8px #d4d4d4;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 746, ../sass/header.scss */
+.clearfix .description .rank h2 {
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+/* line 749, ../sass/header.scss */
+.clearfix .description .rank h2 i {
+  display: inline-block;
+  background: url("../imgs/king.png") no-repeat;
+  width: 26px;
+  height: 22px;
+}
+/* line 755, ../sass/header.scss */
+.clearfix .description .rank h2 p {
+  display: inline-block;
+  color: #f4aa28;
+}
+/* line 760, ../sass/header.scss */
+.clearfix .description .rank ul {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+/* line 765, ../sass/header.scss */
+.clearfix .description .rank ul li {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background: #f3f3f3;
+  margin-right: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+/* line 776, ../sass/header.scss */
+.clearfix .description .rank ul .jintian {
+  background: #7ebf12;
+  color: #fff;
+}
+/* line 782, ../sass/header.scss */
+.clearfix .description .rank .grade {
+  margin-left: 30px;
+}
+/* line 785, ../sass/header.scss */
+.clearfix .description .rank .grade .details {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+/* line 788, ../sass/header.scss */
+.clearfix .description .rank .grade .details .num1 {
+  color: #fb742a;
+}
+/* line 791, ../sass/header.scss */
+.clearfix .description .rank .grade .details span {
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+/* line 799, ../sass/header.scss */
+.clearfix .description .rank .grade .details i img {
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  float: left;
+  margin-left: 40px;
+}
+/* line 807, ../sass/header.scss */
+.clearfix .description .rank .grade .details .data {
+  float: left;
+  width: 60%;
+}
+/* line 810, ../sass/header.scss */
+.clearfix .description .rank .grade .details .data p {
+  font-size: 10px;
+}
+/* line 812, ../sass/header.scss */
+.clearfix .description .rank .grade .details .data p b {
+  font-size: 10px;
+  float: right;
+}
+/* line 817, ../sass/header.scss */
+.clearfix .description .rank .grade .details .data .s {
+  height: 10px;
+  background: #c6e5f1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 821, ../sass/header.scss */
+.clearfix .description .rank .grade .details .data .s .squ1 {
+  background: #2aa8d7;
+  width: 69%;
+  height: 100%;
+}
+/* line 833, ../sass/header.scss */
+.clearfix .description .week {
+  border: 1px solid #ECECEC;
+  box-shadow: 0 0 8px #d4d4d4;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 837, ../sass/header.scss */
+.clearfix .description .week img {
+  margin-left: 20px;
+}
+/* line 840, ../sass/header.scss */
+.clearfix .description .week h3 {
+  text-align: center;
+  padding: 30px 0 20px 0;
+  color: #85c51f;
+}
+/* line 846, ../sass/header.scss */
+.clearfix .description .week .list {
+  float: left;
+  color: #666;
+  margin-left: 9px;
+  font-size: 14px;
+  margin: 10px;
+}
+/* line 852, ../sass/header.scss */
+.clearfix .description .week .list label {
+  width: 60px;
+  text-align: right;
+  color: #666;
+  float: left;
+  vertical-align: middle;
+  font-size: 10px;
+}
+/* line 861, ../sass/header.scss */
+.clearfix .description .week .list .ss {
+  height: 12px;
+  width: 150px;
+  background: #f3f3f3;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  margin: 0 20px;
+}
+/* line 870, ../sass/header.scss */
+.clearfix .description .week .list span {
+  font-size: 14px;
+}
+/* line 876, ../sass/header.scss */
+.clearfix .description .detail {
+  padding-left: 5%;
+  margin-top: 15%;
+}
+/* line 879, ../sass/header.scss */
+.clearfix .description .detail h4 {
+  color: #85c51f;
+}
+/* line 882, ../sass/header.scss */
+.clearfix .description .detail p {
+  font-size: 14px;
+}
+/* line 884, ../sass/header.scss */
+.clearfix .description .detail p a {
+  text-decoration: none;
+  color: #85c51f;
+  font-size: 14px;
+}
+
+/* line 896, ../sass/header.scss */
+.clearfix footer {
+  float: left;
+  width: 100%;
+  background: #c9d9b3;
+  border-top: 5px solid #709e18;
+}
+/* line 901, ../sass/header.scss */
+.clearfix footer #link {
+  margin: 10px 0;
+}
+/* line 904, ../sass/header.scss */
+.clearfix footer p {
+  text-align: center;
+  font-size: 12px;
+}
+/* line 908, ../sass/header.scss */
+.clearfix footer p a {
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #709e18;
+}
+/* line 916, ../sass/header.scss */
+.clearfix footer p {
+  margin-bottom: 20px;
+}
+
+/* line 922, ../sass/header.scss */
+#daren-1, #daren-2, #daren-3, #daren-4 {
+  background: url("../imgs/medal.png") no-repeat left top;
+}
+
+/* line 926, ../sass/header.scss */
+#daren-2 i, #daren-3 i, #daren-4 i {
+  background: url("../imgs/default.png") no-repeat;
+}
+
+@-moz-keyframes moveone {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@-webkit-keyframes moveone {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@keyframes moveone {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@-moz-keyframes movetwo {
+  0% {
+    top: 125px;
+  }
+  100% {
+    top: 140px;
+  }
+}
+@-webkit-keyframes movetwo {
+  0% {
+    top: 125px;
+  }
+  100% {
+    top: 140px;
+  }
+}
+@keyframes movetwo {
+  0% {
+    top: 125px;
+  }
+  100% {
+    top: 140px;
+  }
+}
+@-moz-keyframes movethree {
+  0% {
+    top: 40px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-webkit-keyframes movethree {
+  0% {
+    top: 40px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@keyframes movethree {
+  0% {
+    top: 40px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-moz-keyframes movefour {
+  0% {
+    top: 70px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+@-webkit-keyframes movefour {
+  0% {
+    top: 70px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+@keyframes movefour {
+  0% {
+    top: 70px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+@-moz-keyframes movefive {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-webkit-keyframes movefive {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@keyframes movefive {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-moz-keyframes movesix {
+  0% {
+    top: 210px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@-webkit-keyframes movesix {
+  0% {
+    top: 210px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@keyframes movesix {
+  0% {
+    top: 210px;
+  }
+  100% {
+    top: 30px;
+  }
+}

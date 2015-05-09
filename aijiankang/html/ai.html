@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="../stylesheets/header.css" rel="stylesheet" type="text/css"/>
+	<script src="../jQ/jquery-2.1.3.min.js"></script>	
+	<title>Document</title>	
+</head>
+<body>	
+	<header>
+
+		<div class="logo">
+			<img src="../imgs/logo.png" alt="/">
+		</div>
+		<nav>
+			<ul class="clearfix">
+				<li class="active"><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">健康计划</a></li>
+				<li><a href="javascript:;">健康管理</a></li>
+				<li><a href="javascript:;">健康档案</a></li>
+				<li><a href="javascript:;">健康档案</a></li>
+			</ul>
+		</nav>
+		<div class="menu">
+			<div class="menu-logo">
+				<img src="../imgs/default.png" alt="/">
+			</div>
+			<i id="row"></i>
+			<p id="yonghu">weijianixin</p>
+			<ul id="sho">
+				<li><a href="javascrit:;">账号设置</a></li>
+				<li><a href="javascrit:;">个人信息</a></li></li>
+				<li><a href="javascrit:;">我的设备</a></li>
+				<li><a href="javascrit:;">退出</a></li>
+			</ul>						
+		</div>
+		<div class="message">
+			<i></i>
+			<span class="dote"></span>
+		</div>		
+	</header>
+
+	<div class="clearfix">
+		<div class="charts">
+			<div class="ball">
+				<h3>我加入爱健康以来</h3>
+				<div class="ballone">
+				</div>
+				<div class="balltwo">
+				</div>
+				<div class="ball-fir">
+					<div class="ball-fir-inset">
+						<h4>共燃烧</h4>
+						<p>1215<span>卡</span></p>
+					</div>
+				</div>
+				<div class="ball-sec">
+					<div class="ball-sec-inset">
+						<h4>已运动</h4>
+						<p>12<span>天</span></p>
+					</div>
+				</div>
+				<div class="ball-thi">
+					<div class="ball-thi-inset">
+						<h4>积累路程</h4>
+						<p>15<span>km</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+
+				<div class="slide-top">
+					<div class="slide-top-left"><p>智能配件</p></div>
+					<div class="slide-top-right"><p>手机</p></div>
+				</div>
+
+				<div class="slide-mid">
+					<div class="slide-mid-left"></div>	
+					<div class="slide-mid-right">
+						<div class="zui">最近五次燃烧的卡路里</div>
+						<div class="huabu"></div>
+						<div class="chartone">
+							<div class="num">
+								<ul>
+									<li>08.05<div class="hh1"><p>66</p></div></li>
+									<li>08.05<div class="hh2"><p>101</p></div></li>
+									<li>08.10<div class="hh3"><p>350</p></div></li>
+									<li>08.11<div class="hh4"><p>19</p></div></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="charttwo">
+							<div class="num">
+								<ul>
+									<li>01.22<div class="hh1"><p>23</p></div></li>
+									<li>01.23<div class="hh2"><p>5</p></div></li>
+									<li>01.26<div class="hh3"><p>1</p></div></li>
+									<li>03.03<div class="hh4"><p>170</p></div></li>
+									<li>03.04<div class="hh5"><p>1</p></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>		
+				</div>
+
+
+				<div class="slide-bottom">
+					<div class="slide-bottom-left">
+						<div class="pic1">
+							<img src="../imgs/foot.png">
+						</div>
+						<div class="lan1">
+							<p>步数</p>
+							<p><span>0</span>步</p>					
+						</div>
+					</div>
+
+					<div class="slide-bottom-mid">
+						<div class="pic2">
+							<img src="../imgs/hint.png">
+						</div>
+						<div class="lan2">
+							<p>距离</p>
+							<p><span>0</span>公里</p>
+						</div>
+					</div>
+					<div class="slide-bottom-right">
+						<div class="pic3">
+							<img src="../imgs/fire.png">
+						</div>
+						<div class="lan3">
+							<p>燃烧</p>
+							<p><span>0</span>卡</p>
+						</div>
+					</div>
+					<div class="last"></div>
+				</div>
+			</div>
+			<div class="last">
+				<div class="xiangmu">
+					<ul>
+						<li><a href="javascript:;">运动量</a></li>
+						<li><a href="javascript:;">体重</a></li>
+						<li><a href="javascript:;">血压</a></li>
+						<li class="change"><a href="javascript:;">血糖</a></li>
+					</ul>
+				</div>
+				<div class="checkday">
+					<ul class="clearfix">
+						<li><a href="javascript:;">当天</a><span></span></li>
+						<li><a href="javascript:;">7天</a><span></span></li>
+						<li  class="green"><a href="javascript:;">30天</a><span style="display:block"></span></li>
+					</ul>
+					<p class="p1">亲，您还没有运动曲线哦!</p>
+					<p class="p2">亲，您还没有体重曲线哦!</p>
+					<p class="p3">亲，您还没有血压曲线哦!</p>
+					<p class="p4">亲，您还没有血糖曲线哦!</p>
+				</div>
+			</div>
+		</div>
+		<div class="description">
+			<div class="rank">
+				<h2>
+					<i></i>
+					<p>运动达人榜</p>
+				</h2>
+				<ul class="time">
+					<li>昨天</li>
+					<li class="jintian">今天</li>
+					<li>7天</li>
+					<li class="suoyou">所有</li>
+				</ul>
+				<div class="grade">
+					<div class="details clearfix" id="daren-1">
+						<span class="num1">1</span>
+						<i>
+							<img src="../imgs/cha1.png">	
+						</i>
+						<div class="data">
+							<p>愣子<b>155.17公里</b></p>
+							<div class="s">
+								<div class="squ1">
+								</div>
+							</div>
+						</div>			
+					</div>
+					<div class="details clearfix" id="daren-2">
+						<span class="num1">2</span>
+						<i>
+							<img src="../imgs/cha1.png">	
+						</i>
+						<div class="data">
+							<p>小星星<b>96.79公里</b></p>
+							<div class="s">
+								<div class="squ1">
+								</div>
+							</div>
+						</div>			
+					</div>
+
+
+					<div class="details clearfix" id="daren-3">
+						<span class="num1">3</span>
+						<i>
+							<img src="../imgs/cha1.png">	
+						</i>
+						<div class="data">
+							<p>小魏<b>15.77公里</b></p>
+							<div class="s">
+								<div class="squ1">
+								</div>
+							</div>
+						</div>			
+					</div>
+
+					<div class="details clearfix" id="daren-4">
+						<span class="num1">4</span>
+						<i>
+							<img src="../imgs/cha1.png">	
+						</i>
+						<div class="data">
+							<p>天辰苑<b>11.13公里</b></p>
+							<div class="s">
+								<div class="squ1">
+								</div>
+							</div>
+						</div>			
+					</div>
+
+
+
+				</div>
+			</div>
+			<div class="week clearfix">
+				<h3>本周成绩</h3>
+				<img src="../imgs/pie2.png">
+				<div class="list">
+					<label>长辈关爱</label>				
+					<div class="ss"></div>
+					<span>4次/周</span>
+				</div>
+				<div class="list">
+					<label>晚辈关爱</label>				
+					<div class="ss"></div>
+					<span>3次/周</span>
+				</div>
+				<div class="list">
+					<label>夫妻浪漫</label>				
+					<div class="ss"></div>
+					<span>4次/周</span>
+				</div>
+				<div class="list">
+					<label>步行</label>				
+					<div class="ss"></div>
+					<span>12公里/周</span>
+				</div>
+				<div class="list">
+					<label>骑行</label>				
+					<div class="ss"></div>
+					<span>22公里/周</span>
+				</div>
+				<div class="list">
+					<label>篮球</label>				
+					<div class="ss"></div>
+					<span>3次/周</span>
+				</div>
+				<div class="list">
+					<label>控烟</label>				
+					<div class="ss"></div>
+					<span>1盒/周</span>
+				</div>
+				<div class="list">
+					<label>限酒</label>				
+					<div class="ss"></div>
+					<span>4次/周</span>
+				</div>
+				<div class="list">
+					<label>电影</label>				
+					<div class="ss"></div>
+					<span>2次/周</span>
+				</div>
+
+
+
+			</div>
+			<div class="detail">
+
+				<h4>健康小贴士</h4>
+
+				<p><a target="_blank" href="/mobileapi/newsDetail.do?newsId=599">关注 | 第8个世界自闭症日：为"星星的孩子"点一盏蓝灯</a></p>
+
+				<p>今天（4月2日）是第八个世界自闭症日。自闭症患儿被叫做“星星的孩子”，他们就像天上的星星，在遥远而漆黑的夜空中独自闪烁着...</p>
+
+				<p><a target="_blank" href="/mobileapi/newsDetail.do?newsId=598">海南万宁调查组赴山东取证毒西瓜事件</a></p>
+
+				<p>近日，在青岛即墨、胶州等地，17名市民吃了海南万宁出产的“冰糖黑美人”西瓜后，纷纷出现头晕、恶心呕吐等症状。被查出有机磷中毒，有一名孕妇甚至因为毒素侵入到血液中，胎儿不保。</p>
+
+				<p><a target="_blank" href="/mobileapi/newsDetail.do?newsId=597">雨水天湿气重，喝什么茶好？</a></p>
+				<p>万物复苏的春天，也是雨水较多的季节，而潮湿的气候很容易加重体内的湿气。如何祛湿，不妨喝些茶来去除湿气，因为喝茶利尿，而利尿对祛湿大有好处。</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix">
+		<footer>
+			<p id='link'>
+				<a target="_blank" href="javascript:;">关于我们</a>
+				<a target="_blank" href="javascript:;">联系我们</a>
+			</p>
+			<p>Copyright © 2015 爱健康管理平台</p>
+		</footer>
+
+	</div>
+	<script>
+	var menu=$('#yonghu');
+	//console.log(menu);
+	menu.click(function(){
+		$('#sho').slideToggle();
+	});
+	$('#row').click(function(){
+		$('#sho').slideToggle();
+	});
+
+	var bar1=$('.slide-top-left');
+	var bar2=$('.slide-top-right');
+	var content1=$('.slide-mid-left');
+	var content2=$('.chartone');
+	var content3=$('.charttwo');
+	var control=$('.huabu');
+	bar1.click(function () {
+	//	content1.show();
+	content2.show();
+	content3.hide();
+	bar1.css('background','#85c51f');
+	bar2.css('background','#fff');
+	control.show();
+	control.slideUp();
+}
+);
+	bar2.click(function () {
+	//	content1.show();
+	content3.show();
+	content2.hide();
+	bar2.css('background','#85c51f');
+	bar1.css('background','#fff');
+	control.show();
+	control.slideUp();
+}
+);
+	var bar4=$('.time li');
+	var grade=$('.grade');
+	var suoyou=$('.suoyou');
+	bar4.click(function (){
+		$('.grade').hide();
+		bar4.css({'color':"#666",'background':'#f3f3f3'});
+		bar4.eq($(this).index()).css({'color':'#f3f3f3','background':'#7ebf12'});
+	});
+	suoyou.click(function (){
+		bar4.css({'color':'#666','background':'#f3f3f3'});
+		bar4.eq($(this).index()).css({'color':'#f3f3f3','background':'#7ebf12'});
+		$('.grade').show();
+
+	});
+
+	var bar5=$('.xiangmu li');
+	var pp=$('.checkday p');
+	var aa=$('.xiangmu a');
+	bar5.click(function () {
+		bar5.css('background','#f4aa28');
+		aa.css('color',"#fff");
+		aa.eq($(this).index()).css('color','#f4aa28');
+		bar5.eq($(this).index()).css('background','#fff');
+		pp.hide();
+		pp.eq($(this).index()).show();
+	});
+
+	var bar6=$('.checkday li');
+	var aaa=$('.checkday a');
+	var ss=$('.checkday span');
+	bar6.click(function () {
+		bar6.css('background','#f3f3f3');
+		aaa.css('color','#666');
+		aaa.eq($(this).index()).css('color','#fff');
+		bar6.eq($(this).index()).css('background','#85c51f');
+		ss.hide();
+		ss.eq($(this).index()).show();	
+	});
+	</script>
+</body>
+</html>
+
+
